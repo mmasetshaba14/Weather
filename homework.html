@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      .centered-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Full height of the viewport */
+      }
+      .symbol {
+        text-align: center;
+      }
+      .curr {
+        text-align: center;
+        color: blue;
+      }
+      h2 {
+        text-align: center;
+        color: blue;
+      }
+      h3 {
+        text-align: center;
+      }
+      h4 {
+        text-align: center;
+      }
+      h5 {
+        text-align: center;
+      }
+      ul {
+        padding: 0; /* Remove default padding */
+      }
+      li {
+        list-style: none;
+        margin: auto;
+        padding: 5px;
+        width: 150px;
+        align-content: center;
+        text-align: center; /* Center align text */
+      }
+      li:hover {
+        background-color: #fffaef;
+        list-style: none;
+        transition: all 150ms ease;
+        border-radius: 10px;
+        width: 150pt;
+        height: auto;
+      }
+      button {
+        display: block;
+        margin: auto;
+        background-color: #1952c1;
+        padding: 15px 30px 15px 30px;
+        color: white;
+        border-radius: 50px;
+        border-color: #1952c1;
+      }
+      button:hover {
+        background-color: pink;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="centered-content">
+      <h3 class="symbol">⛅</h3>
+      <h3 class="curr">Currently 21⁰ in Tokyo</h3>
+      <h4>13⁰/23⁰</h4>
+      <ul>
+        <li>
+          <h3>🌧️Tomorrow</h3>
+          <h3>10⁰/<strong>22⁰</strong></h3>
+        </li>
+        <li>
+          <h3>⛅Saturday</h3>
+          <h3>25⁰/<strong>28⁰</strong></h3>
+        </li>
+        <li>
+          <h3>☀️Sunday</h3>
+          <h3>25⁰/<strong>28⁰</strong></h3>
+        </li>
+      </ul>
+      <button>Change city</button>
+      <h5>Coded by Mmasetshaba Madie</h5>
+    </div>
+  </body>
+</html>
